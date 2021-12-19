@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Source+Serif+Pro:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+}
+.container{
+  margin-top: 5%;
+  border: 1px solid;
+  height:fit-content;
+}
+.row{
+  height: fit-content;
+}
+.img{
+  min-height: fit-content;
+  background-image: url("../image/bg.jpg");
+  background-size: 100% 100%;
+}
+
+.display-1{
+  margin-top: 20%;
+  text-align: center;
+  font-family: 'Montserrat',sans-serif;
+  font-size: 100px;
+}
+
+.form-floating{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+input[type=submit]{
+   background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;  
+}
+.loginForm{
+  text-align: center;
+  margin-top: 10%;
+}
